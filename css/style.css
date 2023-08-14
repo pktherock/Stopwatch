@@ -15,6 +15,7 @@
   place-content: center;
 }
 
+/* stopwatch section */
 .stopwatch_container {
   max-width: 700px;
   max-height: 700px;
@@ -32,6 +33,7 @@
   color: rgb(55, 50, 50);
 }
 
+/* when pause stopwatch -> this class will be added/removed using dom concept */
 .timer_count_stop {
   color: rgb(121, 117, 117);
 }
@@ -44,6 +46,7 @@
   font-size: 1.3rem;
 }
 
+/* action buttons section */
 .action_buttons {
   margin-top: 2rem;
   display: flex;
@@ -75,7 +78,7 @@
   background-color: chartreuse;
 }
 
-/* for toggle disabled mode when required will add logically using js*/
+/* this class will be added/removed based on stopwatch state, using dom concept */
 .disabled {
   color: rgb(222, 210, 210);
 }

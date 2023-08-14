@@ -31,6 +31,7 @@ const stopWatch = () => {
   Timer_count.textContent = `${hour}:${minute}:${second}`;
 };
 
+// Function which will run when need to add disabled class to the buttons
 const setDisableClassToButton = () => {
   if (isTimerStarted) {
     ResetBtn.classList.remove('disabled');
