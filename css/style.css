@@ -4,8 +4,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #fff;
   font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: #e7e7e1;
 }
 
 .place_center {
@@ -20,7 +22,10 @@
   max-width: 700px;
   max-height: 700px;
   padding: 2rem;
-  /* background-color: green; */
+  background-color: rgb(208, 208, 208);
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #b19696;
+  box-shadow: 10px 10px 5px rgb(95, 10, 10);
 }
 
 .timer {
@@ -81,4 +86,8 @@
 /* this class will be added/removed based on stopwatch state, using dom concept */
 .disabled {
   color: rgb(222, 210, 210);
+}
+
+.update_para {
+  margin-top: 15px;
 }
