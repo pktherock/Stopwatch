@@ -5,6 +5,6 @@
 - Project is created by using HTML, CSS, and JavaScript
 - All features are the same like Windows stopwatch or any other stopwatch
 
-![Live image](/assets/img/live_img.png)
+![live_img](https://github.com/pktherock/Stopwatch/assets/59223750/0870b921-ae9b-4215-b5ac-c92432119a81)
 
 [click here to see live demo](https://pktherock.github.io/Stopwatch/)
