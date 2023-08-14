@@ -4,9 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stopwatch</title>
+
+    <!-- font awesome CDN link -->
+    <script
+      src="https://kit.fontawesome.com/8407f62721.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- external css file -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="place_center">
+    <div class="stopwatch_container">
+      <!-- Timer -->
+      <div class="timer">
+        <span class="timer_count">00:00:00</span>
+      </div>
+
+      <!-- Timer labels -->
+      <div class="timer_label">
+        <span>hr</span>
+        <span>min</span>
+        <span>sec</span>
+      </div>
+
+      <!-- Stopwatch action buttons -->
+      <div class="action_buttons">
+        <i id="playPauseBtn" class="fa-solid fa-play action_button"></i>
+        <i
+          id="trackLapsBtn"
+          class="fa-solid fa-flag action_button disabled"
+        ></i>
+        <i
+          id="resetBtn"
+          class="fa-solid fa-arrow-rotate-left action_button disabled"
+        ></i>
+      </div>
+    </div>
+
+    <p>Note: Laps tracking will be updated soon.</p>
+
+    <!-- External js file -->
     <script src="./js/script.js"></script>
   </body>
 </html>
