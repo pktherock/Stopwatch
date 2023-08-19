@@ -1,4 +1,4 @@
-# Stopwatch
+# Stopwatch Project (Front End Skill Test 1)
 
 ### Coding Ninja Front-End Skill Test 1
 
